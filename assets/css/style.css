@@ -1,0 +1,21 @@
+:root {
+    --light: #98c1d9;
+    --blue: #0096c7;
+    --dark: #293241;
+    --orange: #ee6c4d;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: linear-gradient(to right, var(--blue), var(--light));
+    color: white;
+    border-radius: 0;
+}
+
+.container {
+    border: 1px solid black;
+}
