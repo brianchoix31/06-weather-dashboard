@@ -16,10 +16,22 @@ body {
     border-radius: 0;
 }
 
-.container {
-    border: 1px solid black;
+.container-fluid {
+    margin-bottom: 3rem;
+    /* border: 1px solid black; */
 }
 
 .btn:hover {
     background-color: var(--blue);
+}
+
+.forecast {
+    margin-top: 3rem;
+}
+
+.card {
+    display: inline-block;
+    margin-right: 1rem;
+    background-color: var(--blue);
+    color: white;
 }

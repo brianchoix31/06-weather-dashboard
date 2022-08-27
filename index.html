@@ -21,29 +21,28 @@
         <h1 class="display-5">Weather Dashboard</h1>
     </header>
 
-    <main class="container">
-
-        <div class="row">
-
-            <div class="col-md-4">
-                <h4 class="header"><strong>Search for a City:</strong></h4>
-                    <div class="input-group mb-3">
-                        <input id="user-input" type="text" class="form-control" placeholder="City Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                          <button class="btn btn-outline-secondary" type="button">Search</button>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-3 sidebar">
+                    <h4 class="header">Search for a City:</h4>
+                        <div class="input-group mb-3">
+                            <input id="user-input" type="text" class="form-control" placeholder="City Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Search</button>
+                            </div>
                         </div>
-                    </div>
-            </div>
+                </div>
 
-            <div class="col-md-8">
-                <h4 class="header"><strong>City Name</strong></h4>
-            </div>
+                <div class="col-md-9 content">
+                </div>
 
+            </div>
         </div>
-
     </main>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
