@@ -10,12 +10,16 @@ body {
 }
 
 .jumbotron {
-    text-align: center;
     background-image: linear-gradient(to right, var(--blue), var(--light));
+    text-align: center;
     color: white;
     border-radius: 0;
 }
 
 .container {
     border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: var(--blue);
 }

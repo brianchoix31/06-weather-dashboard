@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link
     rel="stylesheet"
     href="./assets/css/style.css">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="jumbotron p-4">
+    <header class="jumbotron p-3">
         <h1 class="display-5">Weather Dashboard</h1>
     </header>
 
@@ -26,21 +26,24 @@
         <div class="row">
 
             <div class="col-md-4">
-                <h3 class="header">Search for a City:</h3>
-                <form id="user-form" class="card-body">
-                  <input name="username" id="username" type="text" autofocus="true" class="form-input" />
-                  <button type="submit" class="btn">Search</button>
-                </form>
-
+                <h4 class="header"><strong>Search for a City:</strong></h4>
+                    <div class="input-group mb-3">
+                        <input id="user-input" type="text" class="form-control" placeholder="City Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button">Search</button>
+                        </div>
+                    </div>
             </div>
 
-            <div class="col-md-8">Main Content</div>
+            <div class="col-md-8">
+                <h4 class="header"><strong>City Name</strong></h4>
+            </div>
 
         </div>
 
     </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
